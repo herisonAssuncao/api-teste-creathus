@@ -12,6 +12,7 @@ import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/api/contatos")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ContatoController {
 
     @Autowired
