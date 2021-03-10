@@ -1,6 +1,6 @@
 # Api RESTful Spring Boot
 
-Api de crud de contatos.
+Api de crud de contatos desenvolvido com spring boot.
 
 ## Tecnologias utilizadas 
 
@@ -30,4 +30,5 @@ Api de crud de contatos.
 Aplicação foi hospedada em uma máquina virtualizada com UBUNTU da AWS EC2.
 Foi utilizando um ambiente docker para integração e funcionamento da aplicação.
 Tanto o Frontend como o App já estão utilizando a api dessa aplicação da AWS.
+http://54.94.80.69:9000/api
 
