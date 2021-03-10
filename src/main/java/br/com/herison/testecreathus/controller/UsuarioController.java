@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("api/usuarios")
-@CrossOrigin(origins = "http://example.com", allowedHeaders = "*")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class UsuarioController {
 
     @GetMapping("auth")
