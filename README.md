@@ -21,14 +21,14 @@ Api de crud de contatos desenvolvido com spring boot.
 - Clone o repositório e verifique se sua máquina possue as tecnologias Docker e Docker Compose
 - Empacote o aplicativo com o comando: ``./mvnw clean package -DskipTests=true`` dentro do diretório do projeto
 - Extraia as bibliotecas: ``mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)``
-- Execute: sudo docker-compose build && sudo docker-compose up para buildar e subir os containers
+- Execute: ``sudo docker-compose build && sudo docker-compose up`` para buildar e subir os containers
 - Acesse a aplicação http://localhost:9000
 
 
 ## Deploy 
 
 Aplicação foi hospedada em uma máquina virtualizada com UBUNTU da AWS EC2.
-Foi utilizando um ambiente docker para integração e funcionamento da aplicação.
+Foi utilizado um ambiente docker para integração e funcionamento da aplicação.
 Tanto o Frontend como o App já estão utilizando a api dessa aplicação da AWS.
 http://54.94.80.69:9000/api
 
