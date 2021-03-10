@@ -21,7 +21,7 @@ Api de crud de contatos.
 - Clone o repositório e verifique se sua máquina possue as tecnologias Docker e Docker Compose
 - Empacote o aplicativo com o comando: ``./mvnw clean package -DskipTests=true`` dentro do diretório do projeto
 - Extraia as bibliotecas: ``mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)``
-- Excute: sudo docker-compose build && sudo docker-compose up para buildar e subir os containers
+- Execute: sudo docker-compose build && sudo docker-compose up para buildar e subir os containers
 - Acesse a aplicação http://localhost:9000
 
 
